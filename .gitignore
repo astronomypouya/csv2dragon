@@ -1,0 +1,4 @@
+*.csv
+*.txt
+!README.txt
+!sample.csv
