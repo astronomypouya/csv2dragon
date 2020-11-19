@@ -1,0 +1,32 @@
+Group,Voice command,Type,Code,Comments
+pandas,pandas import,text,import pandas as pd,
+,panda object,text,pd,
+,,,,
+,,,,
+dot,dot DataFrame,text,.DataFrame,
+,dot DataFrame,,,
+,,,,
+com,com underline <num>,code,"Sub Main
+        If ListVar2 = ""one"" Then numval = ""1""
+        If ListVar2 = ""two"" Then numval = ""2""
+        If ListVar2= ""three"" Then numval = ""3""
+        If ListVar2= ""four"" Then numval = ""4""
+        If ListVar2= ""five"" Then numval = ""5""
+        If ListVar2 = ""six"" Then numval = ""6""
+        If ListVar2 = ""seven"" Then numval = ""7""
+        If ListVar2= ""eight"" Then numval = ""8""
+        If ListVar2= ""nine"" Then numval = ""9""
+        If ListVar2= ""ten"" Then numval = ""10""
+
+
+        If ListVar1 = ""underline"" Then
+                For i = 1 To numval
+                        SendDragonKeys ""{Ctrl+Left}{BackSpace}_""
+                Next
+                SendDragonKeys ""{Ctrl+Right}""
+        End If
+
+End Sub",
+,com equal,text, = ,
+,com index,text,[]{Left},
+,com not equal,text, != ,
